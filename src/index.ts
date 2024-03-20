@@ -15,7 +15,7 @@ export function onOpen(
     | GoogleAppsScript.Events.DocsOnOpen
     | GoogleAppsScript.Events.SlidesOnOpen
     | GoogleAppsScript.Events.SheetsOnOpen
-    | GoogleAppsScript.Events.FormsOnOpen
+    | GoogleAppsScript.Events.FormsOnOpen,
 ): void {
   console.log(e);
 }
